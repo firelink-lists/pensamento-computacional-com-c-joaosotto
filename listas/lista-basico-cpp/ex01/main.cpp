@@ -18,8 +18,11 @@ using namespace std;
 int main() {
     string nome;
     
+    std::cout << "Digite seu nome chefe: ";
+    std::cin >> nome; 
     // TODO: Leia o nome do usuário
     
+    std::cout << "Fala " << nome << "!" << std::endl;
     // TODO: Exiba a saudação personalizada
     
     return 0;
