@@ -18,7 +18,7 @@ using namespace std;
 int main() {
     string nome;
     
-    std::cout << "Digite seu nome chefe: ";
+    std::cout << "Digite seu nome chefe: " << std::endl;
     std::cin >> nome; 
     // TODO: Leia o nome do usuário
     
